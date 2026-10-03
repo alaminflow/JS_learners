@@ -54,3 +54,32 @@ console.log(typeof myFunction)
 //     object => object
 //     function => function
 
+// -------------------------------------
+
+
+
+// stack(Primitive) , Heap(Non-primitive) memory allocation in js
+
+let myName = "Fahim"
+let anotherName = myName
+
+console.log(myName)
+console.log(anotherName)
+
+myName = "Fahim Khan"
+console.log(myName)
+console.log(anotherName) // anotherName will not change because it is primitive data type and stored in stack memory. So, it will not be affected by the change of myName variable.
+
+let myObj1 = {
+    name: "Fahim",
+    age: 22
+}
+
+let anotherObj = myObj1
+
+console.log(myObj1)
+console.log(anotherObj)
+
+myObj1.name = "Fahim Khan"
+console.log(myObj1)
+console.log(anotherObj) // anotherObj will change because it is non-primitive data type and stored in heap memory. So, it will be affected by the change of myObj1 variable.
