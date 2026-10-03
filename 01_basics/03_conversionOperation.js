@@ -2,7 +2,7 @@
 let score = "36abc";
 
 console.log(typeof score)
-console.log(typeof(score))
+console.log(typeof (score))
 
 let valueInNumber = Number(score)
 console.log(typeof valueInNumber)
@@ -10,7 +10,6 @@ console.log(valueInNumber)
 
 // null 
 let temp = null
-
 console.log(typeof temp)
 
 let tempInNum = Number(temp)
@@ -44,7 +43,7 @@ let secret = "abcd"
 console.log(typeof secret)
 
 secretToName = Number(secret)
-console.log(typeof(secretToName))
+console.log(typeof (secretToName))
 console.log(secretToName)
 
 
@@ -64,7 +63,7 @@ let someNum = 33
 
 let stringNum = String(someNum)
 
-console.log(typeof(stringNum))
+console.log(typeof (stringNum))
 
 
 //======== Operations ========
@@ -81,13 +80,13 @@ let str3 = str1 + str2
 console.log(str3)
 
 
-console.log("1"+ 2)
-console.log(1+"2")
-console.log("1"+"2")
-console.log("1"+"2"+"2")
-console.log(1+2+"2")
-console.log("1"+"2"+2)
-console.log("1"+2+2)
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + "2")
+console.log("1" + "2" + "2")
+console.log(1 + 2 + "2")
+console.log("1" + "2" + 2)
+console.log("1" + 2 + 2)
 
 
 // let num1, num2, num3;
